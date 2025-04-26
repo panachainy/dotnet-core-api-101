@@ -1,6 +1,10 @@
 # dotnet core api 101
 
-## Steps
+## Prerequisites
+
+- Install .NET SDK 9.0 or later
+
+## Create project Steps
 
 ```sh
 dotnet new sln
