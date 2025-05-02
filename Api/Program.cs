@@ -19,10 +19,12 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-if (!app.Environment.IsDevelopment())
-{
-    app.UseHttpsRedirection();
-}
+
+// FIXME: Not sure we should have redirect http -> https here or network level?
+// if (!app.Environment.IsDevelopment())
+// {
+//     app.UseHttpsRedirection();
+// }
 
 
 app.MapGet("/api/healthz", () =>
