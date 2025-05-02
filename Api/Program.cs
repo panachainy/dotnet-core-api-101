@@ -39,6 +39,11 @@ if (!app.Environment.IsDevelopment())
 // })
 // .WithName("GetWeatherForecast");
 
+app.MapGet("/api/healthz", () =>
+{
+    return Results.Ok("Healthy");
+});
+
 
 // app.MapController<WeatherController>();
 // app.MapController();
