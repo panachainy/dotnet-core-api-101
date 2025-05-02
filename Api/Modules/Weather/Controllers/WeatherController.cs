@@ -18,7 +18,7 @@ namespace Api.Modules.Weather.Controllers
         [HttpGet("")]
         public async Task<ActionResult<IEnumerable<string>>> GetForecasts()
         {
-            var forecast = _weatherService.GetForecastAsync();
+            var forecast = await _weatherService.GetForecastAsync();
             return Ok(forecast);
         }
 
