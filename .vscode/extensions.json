@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "arjun.swagger-viewer",
+        "humao.rest-client",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "kreativ-software.csharpextensions"
+    ]
+}
