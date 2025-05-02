@@ -11,6 +11,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    Console.WriteLine("[IsDevelopment]: ", app.Environment.IsDevelopment());
     app.MapOpenApi();
 }
 
@@ -36,7 +37,7 @@ app.UseHttpsRedirection();
 // .WithName("GetWeatherForecast");
 
 
-app.MapController<WeatherController>();
+// app.MapController<WeatherController>();
 // app.MapController();
 
 app.Run();
