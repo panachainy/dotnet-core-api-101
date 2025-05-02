@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Api.Modules.Weather.Services
 {
-    public class WeatherService
+    public class WeatherService : IWeatherService
     {
         public async Task<IEnumerable<string>> GetForecastAsync()
         {
