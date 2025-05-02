@@ -5,4 +5,4 @@ d.build:
 	docker build -t 101-api .
 
 d.run:
-	docker run -p 5202:5202 101-api
+	docker run -p 8080:8080 101-api
