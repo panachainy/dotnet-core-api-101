@@ -1,0 +1,2 @@
+rw:
+	dotnet watch run
