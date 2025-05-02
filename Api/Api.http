@@ -4,3 +4,6 @@ GET {{Api_HostAddress}}/api/weather
 Accept: application/json
 
 ###
+
+GET {{Api_HostAddress}}/api/healthz
+Accept: application/json
