@@ -26,7 +26,6 @@ if (app.Environment.IsDevelopment())
 //     app.UseHttpsRedirection();
 // }
 
-
 app.MapGet("/api/healthz", () =>
 {
     return Results.Ok("Healthy");
